@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Video Editing Services | Starting at ₹50/Reel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .video-thumbnail {
+            transition: all 0.3s ease;
+        }
+        .video-thumbnail:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        .pricing-card {
+            transition: all 0.3s ease;
+        }
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-indigo-600">ViralWaveEdits</div>
+                <nav id="nav-links" class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-indigo-600 font-medium">Home</a>
+                    <a href="#portfolio" class="hover:text-indigo-600 transition">Portfolio</a>
+                    <a href="#pricing" class="hover:text-indigo-600 transition">Pricing</a>
+                    <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+                </nav>
+                <button id="mobile-menu-btn" class="md:hidden focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero-gradient text-white py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Affordable & Professional Video Editing</h1>
+                <h2 class="text-xl md:text-2xl mb-8">Starting at <span class="font-bold">₹50/Reel!</span></h2>
+                <p class="text-lg mb-8">Make your videos stand out like videos 1, 2, 3 & 8 – loved by my followers!</p>
+                <a href="#contact" class="bg-white text-indigo-600 font-bold px-8 py-3 rounded-full hover:bg-gray-100 transition duration-300 inline-block">
+                    Get Your Video Edited Now
+                </a>
+            </div>
+            <div class="md:w-1/2">
+                <div class="relative">
+                    <div class="absolute -top-10 -left-10 w-32 h-32 bg-indigo-300 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
+                    <div class="absolute -bottom-10 -right-10 w-32 h-32 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Video Editing" class="rounded-lg shadow-2xl border-4 border-white">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="w-16 h-16 bg-white bg-opacity-80 rounded-full flex items-center justify-center">
+                                <svg class="w-8 h-8 text-indigo-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.3 2.841A1.5 1.5 0 004 4.11v11.78a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Why Choose My Editing Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                <div class="text-center p-6 rounded-lg">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-film text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">High-Quality Edits</h3>
+                    <p class="text-gray-600">Professional editing for Reels, Shorts, and YouTube videos</p>
+                </div>
+                <div class="text-center p-6 rounded-lg">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-bolt text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Trending Effects</h3>
+                    <p class="text-gray-600">Latest transitions & effects to make your content stand out</p>
+                </div>
+                <div class="text-center p-6 rounded-lg">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-clock text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Fast Delivery</h3>
+                    <p class="text-gray-600">Quick turnaround (within 24–48 hours)</p>
+                </div>
+                <div class="text-center p-6 rounded-lg">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-rupee-sign text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Budget Friendly</h3>
+                    <p class="text-gray-600">Only ₹50 per reel - affordable for everyone</p>
+                </div>
+                <div class="text-center p-6 rounded-lg">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-palette text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Custom Style</h3>
+                    <p class="text-gray-600">Tailored to match your brand or preferred style</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">What My Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-indigo-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Rahul Sharma</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"My reels got 3x more views after using these editing services. The transitions are so smooth!"</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-indigo-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Priya Patel</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"The editor perfectly understood my aesthetic. My food videos look so professional now!"</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-indigo-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Amit Kumar</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"For just ₹50, the quality is unbelievable. My fitness content has never looked better."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-4">Simple & Affordable Pricing</h2>
+            <p class="text-center text-gray-600 mb-12">High-quality editing that fits your budget</p>
+            
+            <div class="max-w-md mx-auto">
+                <div class="pricing-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="p-8 text-center">
+                        <h3 class="text-2xl font-bold text-indigo-600 mb-2">Basic Reel Edit</h3>
+                        <div class="text-4xl font-bold mb-6">₹50 <span class="text-lg font-normal text-gray-500">per reel</span></div>
+                        
+                        <ul class="space-y-4 mb-8 text-left">
+                            <li class="flex items-center">
+                                <div class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center mr-3">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>1 video (up to 60 seconds)</span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center mr-3">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>Royalty-free music added</span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center mr-3">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>Smooth transitions & effects</span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center mr-3">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>Professional color grading</span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center mr-3">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>24-48 hour delivery</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="#contact" class="block w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                            Order Now
+                        </a>
+                    </div>
+                    <div class="bg-gray-50 px-8 py-4 text-center">
+                        <p class="text-sm text-gray-600">Bulk discounts available for 5+ reels</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-4">Get In Touch</h2>
+            <p class="text-center text-gray-600 mb-12">Ready to elevate your content? Contact me today!</p>
+            
+            <div class="flex flex-col items-center justify-center gap-12">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdaw8yaFdIB7gXZhY295j7TpiX4ter8IrpuODtwApLo-HDsPw/viewform?usp=header" target="_blank">
+                    <button class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-lg text-lg">
+                        Upload Your Video Now
+                    </button>
+                </a>
+                
+                <div class="bg-gray-100 p-8 rounded-lg shadow-inner text-center w-full max-w-md">
+                    <h4 class="font-semibold text-xl mb-4 text-indigo-700">Working Hours</h4>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center text-gray-700">
+                            <span>Monday - Friday</span>
+                            <span class="font-medium">9:00 AM - 7:00 PM</span>
+                        </div>
+                        <div class="flex justify-between items-center text-gray-700">
+                            <span>Saturday</span>
+                            <span class="font-medium">10:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="flex justify-between items-center text-gray-700">
+                            <span>Sunday</span>
+                            <span class="font-medium text-red-500">Closed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <div class="mb-6 md:mb-0">
+                    <div class="text-2xl font-bold text-indigo-400 mb-2">ViralWaveEdits</div>
+                    <p class="text-gray-400">Professional video editing services at affordable prices</p>
+                </div>
+                
+                <div class="flex space-x-6 mb-6 md:mb-0">
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-indigo-600 transition" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-indigo-600 transition" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-indigo-600 transition" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-indigo-600 transition" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                
+                <div>
+                    <ul class="flex flex-col space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-white transition">Portfolio</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-white transition">Pricing</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2025 ViralWaveEdits. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-btn');
+            const navLinks = document.getElementById('nav-links');
+            
+            // Toggle mobile menu visibility and styles
+            mobileMenuButton.addEventListener('click', function() {
+                navLinks.classList.toggle('hidden');
+                navLinks.classList.toggle('flex');
+                navLinks.classList.toggle('flex-col');
+                navLinks.classList.toggle('absolute');
+                navLinks.classList.toggle('top-16');
+                navLinks.classList.toggle('left-0');
+                navLinks.classList.toggle('right-0');
+                navLinks.classList.toggle('bg-white');
+                navLinks.classList.toggle('p-4');
+                navLinks.classList.toggle('shadow-md');
+                navLinks.classList.toggle('space-y-4');
+                navLinks.classList.toggle('space-x-8'); // Remove desktop spacing
+            });
+            
+            // Smooth scrolling for anchor links and close mobile menu
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if it's open after clicking a link
+                    if (!navLinks.classList.contains('hidden')) {
+                        mobileMenuButton.click(); // Simulate a click on the button to close it
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
